@@ -1,5 +1,6 @@
 # DAY1_DataScience
 Day 1: Data Science - Basics of Classification 🚀
+
 For Day 1, I focused on understanding the fundamentals of Classification in Machine Learning. I go through all scikit-learn library to build a simple "Gender Predictor" based on physical attributes (Height, Weight, Shoe Size).
 
 📋 Project Overview
