@@ -1,7 +1,7 @@
 
 # Day 1: Data Science - Basics of Classification 
 
-For Day 1, I focused on understanding the fundamentals of Classification in Machine Learning. I go through all scikit-learn library to build a simple "Gender Predictor" based on physical attributes (Height, Weight, Shoe Size).
+For **Day 1**, I focused on understanding the **fundamentals of Classification** in Machine Learning. I go through all scikit-learn library to build a simple "Gender Predictor" based on physical attributes (Height, Weight, Shoe Size).
 
 📋 Project Overview
 My goal is to compare how different classification algorithms handle the same small dataset.
@@ -79,6 +79,31 @@ $$y = mx + c$$
 
 📊 Visuals
 The code generates a graph showing the actual student scores (Blue Dots) and the machine's learned pattern (Red Line).
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+# Day 3: Logistic Regression - The "S" Curve 🧬
+
+For **Day 3**, I learned **Logistic Regression**. 
+Despite the name "Regression," this is actually a **Classification** algorithm used to predict binary outcomes (Yes/No, True/False, 0/1).
+
+📋 Project: Insurance Predictor
+I built a model that predicts whether a customer will buy insurance based on their age.
+
+🧠 The Math: Sigmoid Function
+Unlike Linear Regression which fits a straight line ($y=mx+c$), Logistic Regression applies the **Sigmoid Function** to squash the output between 0 and 1:
+$$S(x) = \frac{1}{1 + e^{-x}}$$
+
+* If the probability > 50%, it predicts **1 (Yes)**.
+* If the probability < 50%, it predicts **0 (No)**.
+
+🛠️ Libraries Used
+* **Scikit-Learn:** `LogisticRegression`
+* **Matplotlib:** To visualize the decision boundary (the S-Curve).
+
+📊 Visuals
+The red line in the graph represents the **Probability**.
+* Bottom of the S: Low probability (Younger people).
+* Top of the S: High probability (Older people).
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 A huge thank you to **Siraj Raval** for the inspiration and guidance to start this journey.
