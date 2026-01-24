@@ -79,6 +79,7 @@ $$y = mx + c$$
 
 📊 Visuals
 The code generates a graph showing the actual student scores (Blue Dots) and the machine's learned pattern (Red Line).
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 # Day 3: Logistic Regression - The "S" Curve 🧬
 
