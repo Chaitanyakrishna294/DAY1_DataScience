@@ -165,17 +165,13 @@ One of the best features of Random Forest is that it is "interpretable." It can 
 
 This project is about predicting whether a breast tumor is dangerous (Malignant) or not dangerous (Benign) using a computer program.
 The system looks at patient details like age, tumor size, and medical history and then gives a prediction.
+
 🌟 Why This Project Is Important
 Early detection of breast cancer can save lives
 Helps doctors make better decisions
 Reduces human error
 Uses data to support medical diagnosis
-📂 What Is Inside This Project
-Day_6
- ├── sample.py                 (Main program)
- ├── breast-cancer-dataset.csv (Patient data)
- ├── README.md                 (This file)
- └── EDA_Images                (Graphs & charts)
+
 📊 What Data Is Used
 The data contains information like:
 Patient age
@@ -186,6 +182,7 @@ Location of the tumor
 Final diagnosis result
 All personal details are removed.
 The data is used only for learning and education.
+
 🧹 What the Program Does (Step by Step)
 Reads the patient data
 Cleans incorrect and missing values
@@ -194,22 +191,27 @@ Creates simple graphs to understand the data
 Trains a machine learning model
 Tests how accurate the prediction is
 Shows results using charts and numbers
+
 🤖 How the Prediction Works (In Simple Words)
 The computer learns from past medical records
 It finds patterns between patient details and diagnosis
 Based on these patterns, it predicts the result for new data
 Think of it like:
 “Learning from previous cases to make a smart decision.”
+
 📈 What Results You Can See
 Accuracy of the prediction
 A report showing how well the model performed
 A confusion matrix chart
 Graphs showing age and tumor size patterns
 All graphs are saved automatically in the EDA_Images folder.
+
 ▶ How to Run This Project
+
 1⃣ Install required software
 Make sure Python is installed.
 pip install pandas numpy matplotlib seaborn scikit-learn
+
 2⃣ Run the program
 python sample.py
 That’s it 
