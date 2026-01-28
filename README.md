@@ -219,6 +219,42 @@ That’s it
 The program will run and show results.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
+# Day 7: K-Means Clustering - Unsupervised Learning 🛍️
+For Day 7, I shifted from Supervised Learning  to Unsupervised Learning. I used the K-Means Clustering algorithm to find hidden patterns in raw data without any labels or guidance.
+
+🧠 The Concept: "The Messy Room Party"
+Imagine a party with 100 strangers. Without being told, they naturally separate into groups: the dancers near the speakers, the business people with wine, and the foodies near the buffet.
+Supervised Learning: The host tells everyone where to stand.
+Unsupervised Learning (K-Means): The guests group themselves based on similarity.
+
+⚙️ The Architecture: How It Works
+The algorithm uses an iterative process called Centroid Optimization:
+Initialization: Drops K random "Centroids" (Flags) on the data map.
+Assignment: Every data point connects to the closest Centroid.
+Update: The Centroids move to the mathematical center (average) of their new team.
+Repeat: Steps 2 & 3 repeat until the Centroids stop moving.
+
+📋 Project: Mall Customer Segmentation
+Dataset: Real customer data (Mall_Customers.csv). `https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python`
+Features: Annual Income (k$) and Spending Score (1-100).
+Goal: Identify specific "Customer Personas" to target with different marketing campaigns.
+
+🛠️ The Pipeline
+Data Loading: Ingesting the raw CSV.
+The Elbow Method: Calculated WCSS (Within-Cluster Sum of Squares) for K=1 to K=10 to scientifically find the optimal number of groups.
+Result: The "Elbow" (bend) occurred at K=5.
+Model Training: Trained K-Means with 5 clusters.
+Visualization: Plotted the 5 distinct market segments.
+Prediction: Built a function to classify a new customer into one of these existing groups.
+
+Interact: The script will first show the Elbow Graph, then the Cluster Map, and finally predict the group for a new customer.
+
+📝 Learning Outcomes
+Inertia (WCSS): Learned how to measure how "tight" a cluster is.
+Centroids: Understood that a cluster is defined by its center point.
+Business Logic: Translated mathematical clusters (0, 1, 2) into actionable business strategies.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 A huge thank you to **Siraj Raval** for the inspiration and guidance to start this journey.
 * **GitHub:** [@llSourcell](https://github.com/llSourcell)
 * **YouTube:** [Siraj Raval](https://youtu.be/T5pRlIbr6gg?si=O2xE08iO7yRP6U3c)
